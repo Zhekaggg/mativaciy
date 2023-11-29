@@ -1,1 +1,26 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Рецепты</title>
+    <meta charset="UTF-8">
+    <link href="{{ url_for('static', filename='css/rviain.css') }}" rel="stylesheet" type="text/css">
+    <script src="{{ url_for('static', filename='js/script.js')}}"></script>
+</head>
+<body>
+    <div>
+        <header>
+            <div>
+                <li><a href="/">Цытаты</a></li>
+            </div>
+        </header>
+        <div>
+            <h1>Мотивационные цитаты</h1>
+            {% for mativatiy in mativatiys %}
+                <div class="card">
+                    <p>{{ mativatiy.quotes }}</p>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</body>
+</html>
