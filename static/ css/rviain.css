@@ -1,0 +1,26 @@
+.card {
+    text-align: center;
+    margin: 10px;
+    width: 100%;
+    height: auto;
+    border-radius: 50px;
+    background: #e0e0e0;
+    box-shadow: 20px 20px 60px #bebebe,
+                  -20px -20px 60px #ffffff;
+    padding: 5px
+   }
+
+h1{
+    text-align: center;
+}
+
+li{
+    margin:10px;
+  text-align:center;
+  list-style: none;
+}
+a{
+    font-weight:600;
+    color:black;
+    text-decoration: none;
+  }
